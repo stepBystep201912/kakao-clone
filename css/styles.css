@@ -8,6 +8,7 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
+@import "chat.css";
 
 * {
   box-sizing: border-box;
@@ -18,7 +19,6 @@ body {
   color: #020202;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  height: 1000000px;
 }
 
 a {
