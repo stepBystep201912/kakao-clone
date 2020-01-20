@@ -28,14 +28,37 @@
 }
 
 .friend__content .friend__name {
+  /* display: block; */
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.friend__content > .friend__name {
   display: block;
   margin-bottom: 5px;
   font-weight: 500;
 }
 
+.friends__header .friend__name {
+  font-weight: 600;
+}
+
+.friend__content .friend__alarm {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.friend__alarm i {
+  font-size: 12px;
+}
+.friend__content .friend__alarm-opt {
+  margin-bottom: 5px;
+}
+
 .friend__content .friend__status,
 .friend__content .friend__bottom-txt,
-.friend .chat__timestamp {
+.friend .chat__timestamp,
+.friend__alarm i {
   opacity: 0.6;
 }
 
